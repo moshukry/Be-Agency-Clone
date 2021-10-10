@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif ;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* Media Query */
+/* ////////////////////////////////////////////////////////////////////////// */
+@media(max-width:2560px){
+    header{
+        height: 25vw !important;
+    }
+    #solutions p{
+        font-size: 19px;
+        margin: 30px 0;
+        width: 95%;
+    }
+    #solutions button{
+        padding: 7px 50px !important;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .btnservices{
+        /* padding: 7px 50px !important; */
+        color: white;
+        background-color: #F74371;
+    }
+    .btnservices:hover{
+        background-color: #ff0b48;
+    }
+    #btnLearnMore{
+        background: transparent;
+        border: 4px solid #0C117B;
+        color: #0C117B;
+        font-weight: bold;
+    }
+    #btnLearnMore:hover{
+        background-color: #0C117B;
+        color: white;
+    }
+    #solutions{
+        top: 20%;
+        left: 30%;
+        width: 35%;
+    }
+    h1{
+        font-size: 50px !important;
+        font-weight: 400;
+    }
+    #solutions button{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .socials i {
+        font-size: 2vw ;
+    }
+    /* offer section */
+
+    /* //what we do/// */
+    .whatwedo{
+        height: 800px;
+    }
+    .whatwedo-text{
+        top: 15%;
+    }
+    .whatwedo h1{
+        font-size: 60px !important;
+        font-weight: 400;
+        margin: 0;
+    }
+    .whatwedo p{
+        font-size: 17px;
+        width: 65%;
+    }
+    .whatwedo h3{
+        margin-top: 30px;
+        font-size: 19px;
+    }
+    .whatwedo .card-deck{
+        top: 48%;
+    }
+    .whatwedo img{
+        width: 23%;
+    }
+    footer{
+    height: calc(713px - 17vw);
+    }
+}
+/* //////////////////////////////////////////////////////////////////// */
+@media(max-width:1600px){
+    h1{
+        font-size: 50px !important;
+        font-weight: bold;
+        line-height: 53px;
+    }
+    #solutions p{
+        font-size: 19px;
+        margin: 30px 0;
+        width: 95%;
+    }
+    #solutions button{
+        padding: 7px 50px !important;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    #btnServices{
+        color: white;
+        background-color: #F74371;
+    }
+    #btnServices:hover{
+        background-color: #ff0b48;
+    }
+    #btnLearnMore{
+        background: transparent;
+        border: 4px solid #0C117B;
+        color: #0C117B;
+        font-weight: bold;
+    }
+    #solutions{
+        top: 15%;
+        left: 30%;
+        width: 40%;
+    }
+    header{
+        height: 52vw !important;
+    }
+    .socials i {
+        font-size: 3vw;
+    }
+    /* second section */
+    .second-section{
+        margin: 30px 12% 90px 12%;
+    }
+    .second-section img{
+        max-width: 20%;
+        margin-left: 5%;
+    }
+    /* //what we do// */
+    .whatwedo{
+        height: 870px;
+    }
+    .whatwedo-text{
+        top: 15%;
+    }
+    .whatwedo h1{
+        font-size: 61px !important;
+        font-weight: 400;
+        margin: 0;
+    }
+    .whatwedo p{
+        font-size: 16px;
+        width: 70%;
+    }
+    .whatwedo h3{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .whatwedo .card-deck{
+        top: 48%;
+    }
+    .whatwedo img{
+        width: 35%;
+    }
+}
+/* //////////////////////////////////////////////////////////////////// */
+@media(max-width:1024px){
+    header h1{
+        font-size: 35px !important;
+        font-weight: 400;
+        margin: 0!important;
+        line-height: 37px;
+    }
+    #solutions{
+        top: 15%;
+        left: 20%;
+        width: 60%;
+        transition: transform ease-in-out .5s;
+    }
+    #solutions p{
+        font-size: 19px;
+        margin: 30px 0 20px 0;
+        width: 95%;
+    }
+    #solutions button{
+        /* padding: 7px 50px !important; */
+        margin-top: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 5px 25px !important;
+    }
+    #btnServices{
+        color: white;
+        background-color: #F74371;
+    }
+    #btnServices:hover{
+        background-color: #ff0b48;
+    }
+    #btnLearnMore{
+        background: transparent;
+        border: 4px solid #0C117B;
+        color: #0C117B;
+        font-weight: bold;
+    }
+    header{
+        height: 50vw !important;
+    }
+    /* second sectoin */
+    .second-section{
+        margin: 30px 0 90px 0;
+    }
+    .second-section img{
+        max-width:20%;
+        margin-left:5%;
+    }
+    /* ////what we do /// */
+    .whatwedo{
+        height: 750px;
+    }
+    .whatwedo-text{
+        top: 10%;
+    }
+    .whatwedo h1{
+        font-size: 44px !important;
+        font-weight: 400;
+    }
+    .whatwedo p{
+        font-size: 13px;
+        width: 60%;
+    }
+    .whatwedo h3{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .whatwedo .card-deck{
+        top: 42%;
+    }
+    .whatwedo img{
+        width: 40%;
+    }
+    footer{
+    height: calc(713px - 30vw);
+    }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+@media(max-width:768px){
+    .btn-collapse{
+        display: none !important;
+    }
+    .text-collapse{
+        display: none !important;
+    }
+    /* header section */
+    header{
+        height: 90vw !important;
+    }
+    h1{
+        font-size: 43px !important;
+        font-weight: 400;
+        margin: 0;
+    }
+    .navtoggle{
+        width: 35%;
+    }
+    #solutions{
+        top: 23%;
+        left: 27%;
+        width: 46%;
+        transition: transform ease-in-out .5s;
+    }
+    #solutions button{
+        margin-top: 50px;
+        font-size: 20px;
+        padding: 3px 25px;
+    }
+    /* second section */
+    .second-section{
+        margin: 30px 0 90px 0;
+    }
+    .second-section img{
+        max-width:20%;
+        margin-left:5%;
+    }
+    /* offer section ///////////////*/
+    .offer-section h1{
+        font-size: 33px !important;
+        font-weight: 400;
+    }
+    .offer-section {
+        font-size: 15px;
+    }
+    /* what we do ///////////////////////// */
+    .whatwedo{
+        height: 756px;
+    }
+    .whatwedo-text{
+        top: 8%;
+    }
+    .whatwedo p{
+        font-size: 14px;
+        width: 60%;
+    }
+    .whatwedo .card-deck{
+        top: 45%;
+    }
+    .whatwedo h3{
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .whatwedo img{
+        width: 125px;
+    }
+    .whatwedo a {
+        margin-top: 30px !important;
+    }
+    footer{
+    height: calc(713px - 25vw);
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+@media (max-width:576px){
+    .whatwedo{
+        height: 1340px;
+    }
+    .whatwedo .whatwedo-text{
+        top: 5%;
+    }
+    .whatwedo .card-deck{
+        top: 23%;
+    }
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+@media(max-width:425px){
+    nav{
+        background-color: white;
+        opacity: 100 !important;
+        box-shadow: none !important;
+    }
+    #navimg{
+        height: 55px;
+        width: 156px;
+    }
+    .navtoggle{
+        width: 75%;
+    }
+    h1{
+        font-size: 33px !important;
+        font-weight: 400;
+    }
+    .subscribe-section h1{
+        font-size: 29px !important;
+    }
+    #solutions{
+        top: 19%;
+        left: 27%;
+        width: 46%;
+    }
+    #solutions button{
+        margin-top: 13px;
+        font-size: 11px;
+        padding: 1px 12px !important;
+    }
+    header{
+        height: 100vw !important;
+    }
+    header h1{
+        font-size: 28px !important;
+    }
+    /* second section */
+    .second-section{
+        margin: 40px 0 80px 0;
+    }
+    .second-section img{
+        max-width: 32%;
+        margin-left:12%;
+    }
+    /* what we do//////////// */
+    .whatwedo{
+        height: 1290px !important;
+    }
+    .whatwedo-text{
+        top: 4%;
+    }
+    .whatwedo h1{
+        padding:-1px 36px !important;
+        font-size: 35px !important;
+    }
+    .whatwedo p{
+        font-size: 12px;
+    }
+    .whatwedo .card-deck{
+        top: 23%;
+    }
+    .whatwedo h3{
+        margin-top: 35px;
+        font-size: 13px;
+    }
+    .whatwedo img{
+        width: 32%;
+    }
+    .whatwedo a{
+        bottom: 4% !important;
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //end of media query */
+
+/* header section////////////////////////////////////////////////////////////////////// */
+header{
+    background-image: url('images/header-bg.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #eee;
+    position:relative;
+}
+nav{
+    z-index: 100;
+    position: fixed !important;
+    top: 0;
+    /* padding-top:20px !important ; */
+}
+.navbar-scroll{
+    background-color: white;
+    box-shadow: 0 2px 3px 0 #dfdfdf;
+    opacity: 95%;
+}
+/* nav toggle //// */
+.navtoggle{
+    position: fixed;
+    height: 100%;
+    left: 100%;
+    z-index: 101;
+    background-color: #191919!important;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.navtoggle a{
+    color: white;
+}
+#sideBar{
+    transition: transform ease-in-out .5s;
+}
+#sideBar hr{
+    margin: 10px -30px;
+    border:1px solid rgb(44, 44, 44);
+}
+#sideBar button:first-of-type{
+    background: none;
+	border: none;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+/* left bottom */
+#question{
+    left: 2%;
+    bottom: 3%;
+    width: 22%;
+}
+#question img{
+    margin-bottom: 28px;
+}
+/* socials */
+.socials{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
+/* right middle */
+#scroll-down{
+    right: 3%;
+    top: 48%;
+    /* transform: rotate(90deg) !important; */
+    animation: swing 1.8s ease infinite !important;
+}
+@keyframes swing{
+    0%{
+    transform: translateY(1rem);
+    }
+    50%{
+        transform: translateY(-1rem)
+    }
+    100%{
+        transform: translateY(1rem)
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* second section */
+.second-section img{
+    margin-top: 9%;
+    background: rgba(185, 184, 184, 0.1);
+    filter: grayscale(100);
+    transition: filter ease-in-out .5s;
+    /* transition: background ease-in-out .5s; */
+}
+.second-section img:hover{
+    background: rgb(0,0,0,.1);
+    filter: grayscale(0);
+}
+/* ///////////////////////////offer section/////////////////////// */
+.offer-section{
+    margin-top: 5vw;
+}
+.check-list{
+    padding-top: 80px !important;
+}
+.check-list li{
+    list-style-image: url(images/list_check.png);
+    background-repeat: no-repeat;
+}
+.check-list hr{
+    width: 25%;
+    margin-left: -23px;
+}
+/* //////////////////////// what we do section//////////// */
+.whatwedo{
+    margin-top: 5vw;
+    background-image: url("images/agency4-home-offer-bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #eee;
+    position:relative;
+}
+.whatwedo-text{
+    max-width: 90%;
+}
+.whatwedo .card-deck{
+    position: absolute;
+    justify-content: space-evenly;
+    margin: 0!important;
+}
+.whatwedo .card{
+    background-color: transparent;
+    border: none ;
+    align-items: center;
+}
+.whatwedo a{
+    position: absolute;
+    bottom: 6%;
+    /* left:45%; */
+}
+/* /////////facts section////////////////////////////////////////// */
+.facts{
+    width: 84%;
+    margin: 7vw 8% !important;
+}
+.facts .card{
+    border: none;
+    width: 50%;
+}
+.facts .card span{
+    font-size: 38px;
+    color: crimson;
+}
+/* ///////////////////////subscribe section //////////////////////////////////*/
+.subscribe-section{
+    background-image: url(images/agency4-home-newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.subscribe-section h1{
+    width: 90%;
+    margin-left: 5%;
+}
+.subscribe-section-content{
+    /*  divwidth = .3 vw + 160 */
+    width: calc(30% + 180px);
+    margin-left: calc((100% - (30% + 180px)) / 2);
+    height: 100%;
+    font-weight: 400;
+}
+.subscribe-section [type="email"]{
+    border-color: transparent transparent #EBEBEB transparent ;
+    width: 52%;
+    margin-bottom: 10px;
+}
+.subscribe-section input:focus{
+    border-color: transparent transparent #EBEBEB transparent ;
+    background-color: #f2fbfd;
+}
+
+/* /////////////////////footer /////////////////////////////////////////////////////// */
+footer{
+    background-color: #fafbfc;
+    font-size: 14px;
+    position: relative;
+}
+footer img{
+    width: 207px;
+    margin-bottom: 30px;
+}
+footer a{
+    color: inherit;
+}
+footer p{
+    font-weight: bold;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.copyrights{
+    bottom: 5%;
+    margin: 0 15%;
+    white-space:normal ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* site colors */
+.text-blue{
+    color: #0C117B !important;
+}
+.text-purple{
+    color: #333bd5 !important;
+}
+.rounded-10{
+    border-radius: 2rem !important;
+}
+nav li :hover{
+    color: #333bd5 !important;
+}
+.text-primary-1{
+    color: #4989FD !important;
+}
+.btn-primary-1{
+    background-color: #4989FD !important;
+    color: white;
+}
+.text-white{
+    color: white;
+}
+.text-fade{
+    color: #adadc1;
+}
